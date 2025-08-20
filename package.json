@@ -1,0 +1,16 @@
+{
+  "name": "bootzap",
+  "version": "1.0.0",
+  "description": "Assistente BootZap com WPPConnect + Gemini",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@wppconnect-team/wppconnect": "^1.37.3",
+    "dotenv": "^17.2.1",
+    "puppeteer-core": "^24.9.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
